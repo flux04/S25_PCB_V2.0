@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\jainl\OneDrive\Desktop\Indrones PCB\PCB_v2.0\Indrones_S25_PCB_v2.0\Indrones_S25_PCB_v2.0.kicad_sch</source>
+    <date>15-09-2022 12:52:06</date>
+    <tool>Eeschema (6.0.7)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Indrones_S25_PCB</title>
+        <company>Indrones</company>
+        <rev>V2.0</rev>
+        <date>2022-09-05</date>
+        <source>Indrones_S25_PCB_v2.0.kicad_sch</source>
+        <comment number="1" value="Author: Lakshya Jain"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="B1">
+      <value>LM2576HVS-5</value>
+      <footprint>Package_TO_SOT_SMD:TO-263-5_TabPin3</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/lm2576.pdf</datasheet>
+      <libsource lib="Regulator_Switching" part="LM2576HVS-5" description="5V 3A, SIMPLE SWITCHER® Step-Down Voltage Regulator, High Voltage Input, TO-263"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Indrones_S25_PCB_v2.0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7bff7e51-210d-4e72-b62b-b20461708187</tstamps>
+    </comp>
+    <comp ref="Cin1">
+      <value>100uF</value>
+      <footprint>S25_Lib:CAP_EEEFPC101XAL</footprint>
+      <fields>
+        <field name="MANUFACTURER">Panasonic</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">7.7mm</field>
+        <field name="PARTREV">10-Oct-19</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="EEEFPC101XAL" part="EEEFPC101XAL" description=""/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="7.7mm"/>
+      <property name="MANUFACTURER" value="Panasonic"/>
+      <property name="PARTREV" value="10-Oct-19"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Indrones_S25_PCB_v2.0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c4c2fa10-142c-432a-b095-04a3c7e8a0e5</tstamps>
+    </comp>
+    <comp ref="Cout1">
+      <value>1000uF</value>
+      <footprint>S25_Lib:CAP_EEEFK1C102SV</footprint>
+      <fields>
+        <field name="MANUFACTURER">Panasonic</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">10.5mm</field>
+        <field name="PARTREV">10-Oct-19</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+      </fields>
+      <libsource lib="EEEFK1C102SV" part="EEEFK1C102SV" description=""/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="10.5mm"/>
+      <property name="STANDARD" value="Manufacturer Recommendations"/>
+      <property name="PARTREV" value="10-Oct-19"/>
+      <property name="MANUFACTURER" value="Panasonic"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Indrones_S25_PCB_v2.0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>19812167-800c-4237-be6b-e5f4e0f32d5e</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>IN5822</value>
+      <footprint>S25_Lib:IN5822</footprint>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Indrones_S25_PCB_v2.0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>42e6a9d3-244d-46b5-980f-9bdad6df7e2c</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>XT60-M</value>
+      <footprint>S25_Lib:AMASS_XT60-M</footprint>
+      <fields>
+        <field name="MANUFACTURER">AMASS</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">16.00 mm</field>
+        <field name="PARTREV">V1.2</field>
+        <field name="STANDARD">IPC 7351B</field>
+      </fields>
+      <libsource lib="S25_Lib" part="XT60-M" description=""/>
+      <property name="MAXIMUM_PACKAGE_HEIGHT" value="16.00 mm"/>
+      <property name="STANDARD" value="IPC 7351B"/>
+      <property name="PARTREV" value="V1.2"/>
+      <property name="MANUFACTURER" value="AMASS"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Indrones_S25_PCB_v2.0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9f84921a-0fdf-4fba-a973-a2ad1cd86886</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Camera_Port</value>
+      <libsource lib="S25_Lib" part="Camera_Port" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Indrones_S25_PCB_v2.0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a519b0b3-d195-4f34-8188-64f882f74c4c</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>PPK</value>
+      <libsource lib="S25_Lib" part="PPK" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Indrones_S25_PCB_v2.0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5edf41c1-29cf-42ba-9bc0-9d3313fccad8</tstamps>
+    </comp>
+    <comp ref="M1">
+      <value>Motor</value>
+      <libsource lib="S25_Lib" part="Motor" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Indrones_S25_PCB_v2.0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>26611279-73bd-4170-ae6f-845e5ee7a839</tstamps>
+    </comp>
+    <comp ref="M2">
+      <value>Motor</value>
+      <libsource lib="S25_Lib" part="Motor" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Indrones_S25_PCB_v2.0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>253b3a8b-b725-4a5a-8b37-a9b243e4e8e3</tstamps>
+    </comp>
+    <comp ref="M3">
+      <value>Motor</value>
+      <libsource lib="S25_Lib" part="Motor" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Indrones_S25_PCB_v2.0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>12a2afc9-9951-4673-b00a-f5be3eb7b2eb</tstamps>
+    </comp>
+    <comp ref="M4">
+      <value>Motor</value>
+      <libsource lib="S25_Lib" part="Motor" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Indrones_S25_PCB_v2.0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7adea97b-4187-419d-8aee-3ffc029ad6c7</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>Relay</value>
+      <libsource lib="S25_Lib" part="Relay" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Indrones_S25_PCB_v2.0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5cfba7c3-ccc3-43d5-9121-c1a98873915e</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>Power_Module</value>
+      <libsource lib="S25_Lib" part="Power_Module" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Indrones_S25_PCB_v2.0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>79b5104d-ea07-4372-b332-3e1a7d639c6d</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>3x15_pin</value>
+      <libsource lib="S25_Lib" part="3x15_pin" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Indrones_S25_PCB_v2.0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>061d5659-d6b0-43df-bcb3-5737b3fadf41</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>RC_out</value>
+      <libsource lib="S25_Lib" part="RC_out" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Indrones_S25_PCB_v2.0.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>29c2c482-191b-439d-85f6-fdc35af662f4</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Device" part="D">
+      <description>Diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="EEEFK1C102SV" part="EEEFK1C102SV">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">EEEFK1C102SV</field>
+        <field name="Footprint">CAP_EEEFK1C102SV</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">10.5mm</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="PARTREV">10-Oct-19</field>
+        <field name="MANUFACTURER">Panasonic</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="EEEFPC101XAL" part="EEEFPC101XAL">
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">EEEFPC101XAL</field>
+        <field name="Footprint">CAP_EEEFPC101XAL</field>
+        <field name="STANDARD">Manufacturer Recommendations</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">7.7mm</field>
+        <field name="MANUFACTURER">Panasonic</field>
+        <field name="PARTREV">10-Oct-19</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Switching" part="LM2576HVS-5">
+      <description>5V 3A, SIMPLE SWITCHER® Step-Down Voltage Regulator, High Voltage Input, TO-263</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm2576.pdf</docs>
+      <footprints>
+        <fp>TO?263*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM2576HVS-5</field>
+        <field name="Footprint">Package_TO_SOT_SMD:TO-263-5_TabPin3</field>
+        <field name="Datasheet">http://www.ti.com/lit/ds/symlink/lm2576.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VIN" type="power_in"/>
+        <pin num="2" name="OUT" type="output"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="FB" type="input"/>
+        <pin num="5" name="~{ON}/OFF" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="S25_Lib" part="3x15_pin">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">3x15_pin</field>
+      </fields>
+      <pins>
+        <pin num="" name="Aux1" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="S25_Lib" part="Camera_Port">
+      <fields>
+        <field name="Reference">J2</field>
+        <field name="Value">Camera_Port</field>
+      </fields>
+      <pins>
+        <pin num="" name="GND" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="S25_Lib" part="Motor">
+      <fields>
+        <field name="Reference">M</field>
+        <field name="Value">Motor</field>
+      </fields>
+      <pins>
+        <pin num="" name="BAT+" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="S25_Lib" part="PPK">
+      <fields>
+        <field name="Reference">J1</field>
+        <field name="Value">PPK</field>
+      </fields>
+      <pins>
+        <pin num="" name="5V" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="S25_Lib" part="Power_Module">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Power_Module</field>
+      </fields>
+      <pins>
+        <pin num="" name="" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="S25_Lib" part="RC_out">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">RC_out</field>
+      </fields>
+      <pins>
+        <pin num="" name="5V" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="S25_Lib" part="Relay">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Relay</field>
+      </fields>
+      <pins>
+        <pin num="" name="+5V" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="S25_Lib" part="XT60-M">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">XT60-M</field>
+        <field name="Footprint">AMASS_XT60-M</field>
+        <field name="MAXIMUM_PACKAGE_HEIGHT">16.00 mm</field>
+        <field name="STANDARD">IPC 7351B</field>
+        <field name="PARTREV">V1.2</field>
+        <field name="MANUFACTURER">AMASS</field>
+      </fields>
+      <pins>
+        <pin num="N" name="NEG" type="passive"/>
+        <pin num="P" name="POS" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Device">
+      <uri>D:\software\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="EEEFK1C102SV">
+      <uri>D:\downloads\EEEFK1C102SV\EEEFK1C102SV.lib</uri>
+    </library>
+    <library logical="EEEFPC101XAL">
+      <uri>D:\downloads\EEEFPC101XAL\EEEFPC101XAL.lib</uri>
+    </library>
+    <library logical="Regulator_Switching">
+      <uri>D:\software\6.0\share\kicad\symbols\/Regulator_Switching.kicad_sym</uri>
+    </library>
+    <library logical="S25_Lib">
+      <uri>C:\Users\jainl\OneDrive\Desktop\Indrones PCB\PCB_v2.0\Indrones_S25_PCB_v2.0/Indrones_S25_PCB_v2.0-backups/S25_Lib.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V">
+      <node ref="B1" pin="2" pinfunction="OUT" pintype="output"/>
+      <node ref="B1" pin="4" pinfunction="FB" pintype="input"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J3" pin="" pinfunction="5V" pintype="input"/>
+      <node ref="U1" pin="" pinfunction="+5V" pintype="input"/>
+    </net>
+    <net code="2" name="/CH1">
+      <node ref="M1" pin="" pinfunction="Servo_CH" pintype="output"/>
+      <node ref="U3" pin="" pinfunction="M1" pintype="output"/>
+    </net>
+    <net code="3" name="/CH2">
+      <node ref="M2" pin="" pinfunction="Servo_CH" pintype="output"/>
+      <node ref="U3" pin="" pinfunction="M2" pintype="output"/>
+    </net>
+    <net code="4" name="/CH3">
+      <node ref="M3" pin="" pinfunction="Servo_CH" pintype="output"/>
+      <node ref="U3" pin="" pinfunction="M3" pintype="output"/>
+    </net>
+    <net code="5" name="/CH4">
+      <node ref="M4" pin="" pinfunction="Servo_CH" pintype="output"/>
+      <node ref="U3" pin="" pinfunction="M4" pintype="output"/>
+    </net>
+    <net code="6" name="/CH7">
+      <node ref="U1" pin="" pinfunction="Sig" pintype="input"/>
+      <node ref="U3" pin="" pinfunction="M7" pintype="output"/>
+    </net>
+    <net code="7" name="/RC_IN">
+      <node ref="U3" pin="" pinfunction="RC_IN" pintype="output"/>
+      <node ref="U4" pin="" pinfunction="Sbus" pintype="output"/>
+    </net>
+    <net code="8" name="/RC_VCC">
+      <node ref="U3" pin="" pinfunction="RC_VCC" pintype="output"/>
+      <node ref="U4" pin="" pinfunction="5V" pintype="output"/>
+    </net>
+    <net code="9" name="/Servo_VCC">
+      <node ref="U3" pin="" pinfunction="Servo_VCC" pintype="output"/>
+    </net>
+    <net code="10" name="GND">
+      <node ref="B1" pin="5" pinfunction="~{ON}/OFF" pintype="input"/>
+      <node ref="Cin1" pin="2" pintype="passive"/>
+      <node ref="Cout1" pin="1" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J2" pin="" pinfunction="GND" pintype="input"/>
+      <node ref="J3" pin="" pinfunction="GND" pintype="input"/>
+      <node ref="M1" pin="" pinfunction="GND" pintype="output"/>
+      <node ref="M2" pin="" pinfunction="BAT-" pintype="output"/>
+      <node ref="M3" pin="" pinfunction="GND" pintype="output"/>
+      <node ref="M4" pin="" pinfunction="GND" pintype="output"/>
+      <node ref="U1" pin="" pinfunction="GND" pintype="output"/>
+      <node ref="U2" pin="" pintype="output"/>
+      <node ref="U3" pin="" pinfunction="GND" pintype="output"/>
+      <node ref="U4" pin="" pinfunction="GND" pintype="output"/>
+    </net>
+    <net code="11" name="Net-(J1-PadN)">
+      <node ref="J1" pin="N" pinfunction="NEG" pintype="passive"/>
+      <node ref="U2" pin="" pintype="input"/>
+    </net>
+    <net code="12" name="Net-(J1-PadP)">
+      <node ref="J1" pin="P" pinfunction="POS" pintype="passive"/>
+      <node ref="U2" pin="" pintype="input"/>
+    </net>
+    <net code="13" name="Net-(J2-Pad)">
+      <node ref="J2" pin="" pinfunction="TRG" pintype="input"/>
+      <node ref="U1" pin="" pinfunction="trig" pintype="output"/>
+    </net>
+    <net code="14" name="Net-(J2-Pad)_1">
+      <node ref="J2" pin="" pinfunction="PPK" pintype="input"/>
+      <node ref="J3" pin="" pinfunction="TIME_MARK" pintype="input"/>
+    </net>
+    <net code="15" name="VCC">
+      <node ref="B1" pin="1" pinfunction="VIN" pintype="power_in"/>
+      <node ref="Cin1" pin="1" pintype="passive"/>
+      <node ref="J2" pin="" pinfunction="Vin" pintype="input"/>
+      <node ref="M1" pin="" pinfunction="BAT+" pintype="output"/>
+      <node ref="M2" pin="" pinfunction="BAT+" pintype="output"/>
+      <node ref="M3" pin="" pinfunction="BAT+" pintype="output"/>
+      <node ref="M4" pin="" pinfunction="BAT+" pintype="output"/>
+      <node ref="U2" pin="" pintype="output"/>
+    </net>
+    <net code="16" name="unconnected-(B1-Pad3)">
+      <node ref="B1" pin="3" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="17" name="unconnected-(Cout1-Pad2)">
+      <node ref="Cout1" pin="2" pintype="passive"/>
+    </net>
+    <net code="18" name="unconnected-(U3-Pad)">
+      <node ref="U3" pin="" pinfunction="M8" pintype="output"/>
+    </net>
+    <net code="19" name="unconnected-(U3-Pad)_1">
+      <node ref="U3" pin="" pinfunction="Aux1" pintype="output"/>
+    </net>
+    <net code="20" name="unconnected-(U3-Pad)_2">
+      <node ref="U3" pin="" pinfunction="Aux2" pintype="output"/>
+    </net>
+    <net code="21" name="unconnected-(U3-Pad)_3">
+      <node ref="U3" pin="" pinfunction="Aux3" pintype="output"/>
+    </net>
+    <net code="22" name="unconnected-(U3-Pad)_4">
+      <node ref="U3" pin="" pinfunction="Aux4" pintype="output"/>
+    </net>
+    <net code="23" name="unconnected-(U3-Pad)_5">
+      <node ref="U3" pin="" pinfunction="Aux5" pintype="output"/>
+    </net>
+    <net code="24" name="unconnected-(U3-Pad)_6">
+      <node ref="U3" pin="" pinfunction="Aux6" pintype="output"/>
+    </net>
+    <net code="25" name="unconnected-(U3-Pad)_7">
+      <node ref="U3" pin="" pinfunction="M5" pintype="output"/>
+    </net>
+    <net code="26" name="unconnected-(U3-Pad)_8">
+      <node ref="U3" pin="" pinfunction="M6" pintype="output"/>
+    </net>
+    <net code="27" name="unconnected-(U4-Pad)">
+      <node ref="U4" pin="" pinfunction="TX2" pintype="output"/>
+    </net>
+    <net code="28" name="unconnected-(U4-Pad)_1">
+      <node ref="U4" pin="" pinfunction="GND" pintype="output"/>
+    </net>
+    <net code="29" name="unconnected-(U4-Pad)_2">
+      <node ref="U4" pin="" pinfunction="RX2" pintype="output"/>
+    </net>
+  </nets>
+</export>

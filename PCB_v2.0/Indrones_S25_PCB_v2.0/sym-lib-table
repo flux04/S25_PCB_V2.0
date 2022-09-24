@@ -1,0 +1,8 @@
+(sym_lib_table
+  (lib (name "XT60PW-M")(type "Legacy")(uri "D:/downloads/XT60PW-M (1)/XT60PW-M.lib")(options "")(descr ""))
+  (lib (name "EEEFPC101XAL")(type "Legacy")(uri "D:/downloads/EEEFPC101XAL/EEEFPC101XAL.lib")(options "")(descr ""))
+  (lib (name "EEEFK1C102SV")(type "Legacy")(uri "D:/downloads/EEEFK1C102SV/EEEFK1C102SV.lib")(options "")(descr ""))
+  (lib (name "S25_Lib")(type "KiCad")(uri "${KIPRJMOD}/Indrones_S25_PCB_v2.0-backups/S25_Lib.kicad_sym")(options "")(descr ""))
+  (lib (name "DF13-6P-1.25DS_20_")(type "Legacy")(uri "D:/downloads/LIB_DF13-6P-1.25DS_20_/DF13-6P-1.25DS_20_/KiCad/DF13-6P-1.25DS_20_.lib")(options "")(descr ""))
+  (lib (name "XT60-M")(type "Legacy")(uri "D:/downloads/XT60-M/XT60-M.lib")(options "")(descr ""))
+)
